@@ -208,7 +208,7 @@ const Jobsearch = () => {
 
       <div className="row">
         {/* Filters Section */}
-        <div className="col-md-3 p-4 bg-light">
+        <div className="col-md-2 p-4 bg-light">
           <h5>Filter</h5>
 
           {/* Job Type Filter */}
@@ -306,8 +306,8 @@ const Jobsearch = () => {
 
         {/* Job Details Section */}
         {activeJob && (
-          <div className="col-md-3 ">
-            <div className="card shadow-lg p-3 position-sticky top-0">
+          <div className="col-md-3 w-50">
+            <div className="card shadow-lg p-3 position-sticky top-0 ">
               <button className="btn-close float-end" onClick={() => setActiveJob(null)}></button>
               <h4 className="text-center">{activeJob.title}</h4>
               <h6 className="text-muted">{activeJob.company}</h6>
