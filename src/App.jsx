@@ -11,6 +11,7 @@ import Post from "./Post";
 import Profile from "./Profile";
 import JobDetails from "./JobDetails"
 import Fill from "./Fill";
+import List from "./List";
  
 const Main=()=>{
   return(
@@ -26,8 +27,9 @@ const Main=()=>{
       <Route path="/Singnup" element={<Singnup/>}/>
       <Route path="/Post" element={<Post/>}/>
       <Route path="/Profile" element={<Profile/>}/>
-      <Route path="/job/:jobTitle" element={<JobDetails />} />
+      <Route path="/JobDetails" element={<JobDetails />} />
       <Route path="/Fill" element={<Fill />}/>
+      <Route path="/List" element={<List/>}/>
      </Routes>
 
 
